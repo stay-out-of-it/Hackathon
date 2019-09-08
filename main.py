@@ -2,7 +2,7 @@ import requests
 
 from flask import Flask
 
-from data1 import classifier, get_int_from_image
+from .data1 import classifier, get_int_from_image
 
 
 clf = classifier()
