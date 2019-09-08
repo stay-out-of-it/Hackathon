@@ -2,7 +2,7 @@ from mnist.loader import MNIST
 from PIL import Image
 
 
-mndata = MNIST('./data/')
+mndata = MNIST('src/data/')
 images, labels = mndata.load_training()
 
 i = 4

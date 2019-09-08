@@ -7,7 +7,7 @@ from PIL import Image
 
 
 def classifier():
-    mndata = MNIST("./data/")
+    mndata = MNIST("src/data/")
     images, labels = mndata.load_training()
 
     clf = KNeighborsClassifier()
